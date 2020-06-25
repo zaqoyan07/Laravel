@@ -1,0 +1,357 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu-display{
+	display: flex;
+	align-items: stretch;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #DC3545;
+}
+html{
+	scroll-behavior: smooth;
+}
+/*scroll*/
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0px grey; 
+  border-radius: 0px;
+}
+ ::-webkit-scrollbar-thumb {
+  background: #DC3545; 
+  border-radius: 5px;
+}
+
+body{
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+/*Glxavor*/
+/*header*/
+.nav-logo{
+	font-size: 35px;
+}
+.nav-bg{
+	background-color: rgba(20,23,25,0.9);
+}
+.header-tell-sizeing{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.fa-sign-out-alt{
+	font-size: 20px;
+}
+.fa-shopping-basket{
+	font-size: 20px;
+}
+/*Slide*/
+.slide-bg{
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+ 	height: 500px;
+}
+.text-header{
+	font-size: 60px;
+}
+
+.text-price{
+	font-size: 50px;
+}
+.fa-user-circle{
+	font-size: 40px;
+}
+/*Main*/
+.main-header{
+	font-size: 60px;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+
+}
+.main-1-bg{
+	background-image:url(../image/main-bg.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 100%;
+	height: 650px;
+}
+.main-xorovac-bg{
+	background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 25%;
+	width: 25%;
+}
+.main-menu-barbecue,
+.main-menu-fast-food,
+.main-menu-hot-dish,
+.main-menu-drink{
+	height: 250px;
+	border-radius: 20px;
+	display: inline-block;
+}
+.main-menu-barbecue{
+	background-image:url(../image/barbecue.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main-menu-fast-food{
+	background-image:url(../image/fast-food.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main-menu-hot-dish{
+	background-image:url(../image/hot-dish.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main-menu-drink{
+	background-image:url(../image/drink.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.main-about-us-text{
+	font-size: 18px;
+	width: 100%;
+	margin: 0 200px;
+}
+.main-pills-bg{
+	background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #DC3545;
+    border-color: #DC3545;
+    background-color: #DC3545;
+}
+/*Footer*/
+.footer-bg{
+	background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+}
+.footer-fb{
+	font-size: 50px;
+}
+.fa-facebook-square, .fa-instagram{
+	font-size: 50px;
+}
+.fa-facebook-square{
+	color: #4267B2;
+}
+.fa-instagram{
+	color: #F14B56;
+}
+.footer-bottom-bg{
+	background-color: #1E1E1E;
+}
+.fa-map-marker-alt,
+.fa-phone-volume,
+.fa-envelope{
+	font-size: 30px;
+}
+.footer-adress{
+	font-size: 20px;
+	color: #989898;
+	transition: .5s;
+}
+.footer-adress:hover{
+	color: #DC3545;
+}
+.footer-tell{
+	font-size: 20px;
+	color: #989898;
+	transition: .5s;
+}
+.footer-tell:hover{
+	color: #DC3545;
+}
+.footer-gmail{
+	font-size: 20px;
+	color: #989898;
+	transition: .5s;
+}
+.footer-gmail:hover{
+	color: #DC3545;
+}
+/*modal*/
+.modal-basket-border{
+	border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(.3rem - 1px);
+    border-top-right-radius: calc(.3rem - 1px);
+}
+.modal-basket-h-w{
+	max-height: 450px;
+	max-width: 400px;
+}
+.modal-home-widht{
+	width: 400px;
+}
+.modal-basket-h1{
+	float:left;
+	font-size: 18px;
+
+}
+.number{
+	text-align: center;
+    font-size: 18px;
+    width:30px;
+    color:#DC3545;
+    height: 30px;
+    padding: 0;
+    border: 1px solid #B5BCC3!important;
+}
+.modal-basket-footer-p{
+	font-size: 18px;
+}
+/*order*/
+.fa-wallet,
+.fa-cc-visa,
+.fa-cc-mastercard,
+.fa-cc-paypal,
+.fa-cc-amazon-pay{
+	font-size: 60px;
+}
+.order-input{
+	height: 40px;
+	border:none;
+	border-bottom:1.5px solid #B2B2B2 ;
+	font-size: 25px;
+	margin: auto;
+	background: #F7F7F7;
+}
+.order-input-name{
+	height: 40px;
+	border:none;
+	border-bottom:1.5px solid #B2B2B2 ;
+	font-size: 16px;
+	margin: auto;
+	background: #F7F7F7;
+}
+/*up*/
+.dicoration{
+	text-decoration: none;
+	color:white;
+}
+.dicoration:link{
+	text-decoration: none;
+}
+.dicoration:hover{
+	color: white;
+}
+.up{
+	height: 50px;
+	width: 50px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#DC3545;
+	color: white;
+	text-decoration: none;
+	border-radius: 100%;
+	transition: .5s;
+}
+.up:link{
+	text-decoration: none;
+}
+.up:hover{
+	background-color: #A52734;
+	color: #D4D4D4;
+}
+a{
+	color: white;
+	transition: .5s;
+}
+
+.a{
+    color: #DC3545;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover{
+    color: #DC3545;
+    text-decoration: none;
+    background-color: transparent;
+}
+/*about us*/
+.about-us-text{
+	font-size: 1.5vw;
+}
+.input-hover{
+	padding: 6px 12px;
+	transition: .5s;
+}
+.input-hover:hover{
+	color:white!important;
+	background:#DC3545;
+}
+/*menu*/
+.menu-width-100{
+	width: 75%;
+}
+/*@media*/
+/*main*/
+@media only screen and (max-width: 990px) {
+  	.main-about-us-text{
+		font-size: 18px;
+		width: 70%;
+		font-size: 25px;
+	}
+	.about-us-text{
+	font-size: 2vw;
+	}
+	.main-about-us-text{
+		font-size: 18px;
+		width: 100%;
+		margin: 0 30px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.main-1-bg{
+		background-image:url(../image/main-md-bg.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		width: 100%;
+		height:1000px;
+	}
+	.modal-basket-h-w{
+		margin-top: 230px;
+		margin-left: 15px;
+	}
+}
+@media only screen and (max-width: 540px) {
+	.main-1-bg{
+		background-image:url(../image/main-sm-bg.png);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		width: 100%;
+		height:1000px;
+	}
+	.main-header{
+		font-size: 40px;
+	}
+	.about-us-text{
+	font-size: 18px;
+	}
+	.menu-width-100{
+		width: 100%;
+	}
+}
+
+.nav-item.active a{
+	color:#DC3545;
+}
+
+.row a.footer-active{
+	color:#DC3545!important;
+	background-color:white!important;
+	border-color: white!important;
+}
